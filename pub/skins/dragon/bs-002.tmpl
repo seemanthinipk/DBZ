@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>DragonBallZ</title>
+        <link rel="stylesheet" type="text/css" href="$SkinDirUrl/style/styles.css">
+            <!--HTMLHeader-->
+    </head>
+    <!-- Ported from an existing php-nuke theme by Baba - May 2015  -->
+    <!-- The original came with the tables. Really needs to be divs -->
+    <body>
+        <!-- Header -->
+        <div class="top-btm-div"></div>
+        <table cellspacing="0" cellpadding="0" id="main" class="center theme-width">
+            <tr>
+                <td class="align-left"><img src="$SkinDirUrl/style/images/1.png" alt="1.png" class="spacer" /></td>
+                <td class="sidess hdr-txt" style="width:100%;">
+                    <!--PageHeaderFmt-->
+                    <!--<a href='{$ScriptUrl}' class="hdr-txt">$WikiTitle</a>-->
+                    <a href="$ScriptUrl/"><img src="$PageLogoUrl" alt="$WikiTitle" border="0" /></a>
+                    <!--/PageHeaderFmt-->
+                </td>
+                <td class="align-right"><img src="$SkinDirUrl/style/images/2.png" alt="2.png" class="spacer" /></td>
+            </tr>
+        </table>
+
+        <center>
+            <table cellpadding="0" cellspacing="0" class="center theme-width">
+                <tr>
+                    <td class="sub-header-left"></td>
+                    <td class="sub-header sub-hdr-left-content"></td>
+                    <td class="sub-header sub-hdr-center-content">            
+                        <a href="$ScriptUrl/$[$Homepage]">$[Homepage]</a> |
+                        <a href="$PageUrl?action=print" target="_blank">$[Printable View]</a> |
+                        <a href="$PageUrl?action=diff">$[Page History]</a> |
+                        <a href="$PageUrl?action=edit">$[Edit Page]</a><br />
+                    </td>
+                    <td class="sub-header sub-hdr-right-content">
+                        <form action="$ScriptUrl">
+                            <a href="$ScriptUrl/$[$SiteGroup/Search]">$[Search]</a>:
+                            <input class="searchbox" type="text" name="q" value=""/>
+                            <input class="searchbutton" type="submit" value="$[Go]"/>
+                            <input type="hidden" name="n" value="$FullName"/>
+                            <input type="hidden" name="action" value="search"/>
+                        </form>
+                    </td>
+                    <td class="sub-header-right"></td>
+                </tr>
+            </table>
+        </center>
+
+        <!-- Content -->
+        <table cellpadding="0" cellspacing="0" class="center theme-width">
+            <tr>
+                <td class="body-left"></td>
+                <td class="side-border-left" valign="top">
+
+                    <!-- Left Menu -->
+                    <table cellpadding="0" cellspacing="0" class="menu-width">
+                        <tr>
+                            <td class="scapmain-left"></td>
+                            <td class="scapmain align-center">Characters</td>
+                            <!--<td class="scapmain align-right" align="right">not sure</td>-->
+                            <td class="scapmain-right"></td>
+                        </tr>
+                    </table>
+                    <table cellpadding="0" cellspacing="0" class="menu-width">
+                        <tr>
+                            <td class="border-left"></td>
+                            <td colspan="2" class="side-body">
+                                <!--PageLeftFmt-->
+                                <a class="wikilink" href="https://dragonball.fandom.com/wiki/Goku" title="">Goku</a><br>
+
+                                <a class="wikilink" href="https://dragonball.fandom.com/wiki/Vegeta" title="">Vegeta</a>
+
+                            </td>
+                            <td class="border-right"></td>
+                        </tr>
+                    </table>
+                    <table cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td class="align-left"><img src="$SkinDirUrl/style/images/sideb-left.png" alt="sideb-left.png" class="spacer" /></td>
+                            <td class="sideb menu-width align-center"></td>
+                            <td class="align-right"><img src="$SkinDirUrl/style/images/sideb-right.png" alt="sideb-right.png" class="spacer" /></td>
+                        </tr>
+                    </table>
+                    <!-- End Left Menu -->
+
+                </td>
+                <td class="main-bg" valign="top">
+                    <!-- Page Content -->
+                    <table cellpadding="0" cellspacing="0" class="theme-width">
+                        <tr>
+                            <td class="scapmain-left"></td>
+                            <td class="scapmain align-left"><a href="$ScriptUrl/$Group">$Group</a>&raquo; $Title</td>
+                            <!--<td class="scapmain align-right">not sure</td>-->
+                            <td class="scapmain-right"></td>
+                        </tr>
+                    </table>
+                    <table cellpadding="0" cellspacing="0" class="theme-width">
+                        <tr>
+                            <td class="border-left"></td>
+                            <td colspan="2" class="side-body main-content-area">
+                                <!--PageText-->
+                            </td>
+                            <td class="border-right"></td>
+                        </tr>
+                    </table>
+                    <table cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td class="align-left"><img src="$SkinDirUrl/style/images/sideb-left.png" alt="sideb-left.png" class="spacer" /></td>
+                            <td class="sideb theme-width align-center"></td>
+                            <td class="align-right"><img src="$SkinDirUrl/style/images/sideb-right.png" alt="sideb-right.png" class="spacer" /></td>
+                        </tr>
+                    </table>
+
+                </td>
+                <!--<td class="side-border-right" valign="top">RIGHT STUFF</td>-->
+                <td class="body-right"></td>
+            </tr>
+        </table>
+
+        <!-- Footer -->
+        <table cellpadding="0" cellspacing="0" class="center theme-width">
+            <tr>
+                <td class="footer-left"></td>
+                <td class="footer align-center light-text">
+                    &nbsp;<br /><br />Server Time: $BSCurrentDateTime<br /><br />
+					
+                        <a class="light-text" href="$ScriptUrl/$[$Group/RecentChanges]">$[Recent Changes]</a> |
+                        <a class="light-text" href="$PageUrl?action=print" target="_blank">$[Printable View]</a> |
+                        <a class="light-text" href="$PageUrl?action=diff">$[Page History]</a> |
+                        <a class="light-text" href="$PageUrl?action=edit">$[Edit Page]</a><br />
+                </td>
+                <td class="footer-right"></td>
+            </tr>
+        </table>
+        <table cellpadding="0" cellspacing="0" class="center theme-width">
+            <tr>
+                <td class="bottom-footer-left"></td>
+                <td class="bottom-footer sub-ftr-left-content">Created by Vishal Powered by {$Version}</td>
+                <td class="bottom-footer sub-ftr-center-content">Roycat - 2015</td>
+                <td class="bottom-footer sub-ftr-right-content">$[Page last modified on $LastModified]</td>
+                <td class="bottom-footer-right"></td>
+            </tr>
+        </table>
+        <div class="top-btm-div"></div>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+version=pmwiki-2.2.138 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+author=
+charset=UTF-8
+csum=
+host=::1
+name=Main.HomePage
+rev=205
+targets=PmWiki.DocumentationIndex,PmWiki.InitialSetupTasks,PmWiki.BasicEditing,Main.WikiSandbox
+text=(:Summary:The default home page for the PmWiki distribution:)%0aWelcome to Dragon Ball Z and Dragon ball super%0a"Dragon Ball Z" follows the adventures of Goku who, along with the Z Warriors, defends the Earth against evil. %0a The action adventures are entertaining and reinforce the concept of good versus evil. %0a"Dragon Ball Z" teaches valuable character virtues such as teamwork, loyalty, and trustworthiness.
+

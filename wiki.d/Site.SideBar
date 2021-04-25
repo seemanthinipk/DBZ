@@ -1,0 +1,27 @@
+version=pmwiki-2.2.138 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36
+author=
+charset=UTF-8
+csum=
+host=::1
+name=Site.SideBar
+passwdedit=@_site_edit
+rev=5
+targets=Main.HomePage,Main.WikiSandbox,PmWiki.PmWiki,PmWiki.InitialSetupTasks,PmWiki.BasicEditing,PmWiki.DocumentationIndex,PmWiki.FAQ,PmWiki.PmWikiPhilosophy,PmWiki.ReleaseNotes,PmWiki.ChangeLog,PmWiki.MailingLists,Site.SideBar
+text=* [[Main/HomePage]]%0a* [[Main/WikiSandbox]]%0a%0a%25sidehead%25 [[PmWiki/PmWiki]]%0a* [[PmWiki/Initial Setup Tasks]]%0a* [[PmWiki/Basic Editing]]%0a* [[PmWiki/Documentation Index]]%0a* [[PmWiki/FAQ | PmWiki FAQ ]]%0a* [[PmWiki/PmWikiPhilosophy]]%0a* [[PmWiki/Release Notes]]%0a* [[PmWiki/ChangeLog]]%0a%0a%25sidehead%25 [[http://www.pmwiki.org | pmwiki.org ]]%0a* [[Cookbook:Cookbook | Cookbook (addons) ]]%0a* [[Cookbook:Skins | Skins (themes) ]]%0a* [[PITS:PITS | PITS (issue tracking) ]]%0a* [[PmWiki/Mailing Lists]]%0a%0a%25right%25 [-[[Site.SideBar?action=edit | edit SideBar]]-]
+time=1618635498
+author:1618635498=
+diff:1618635498:1618635469:=5c5%0a%3c * [[PmWiki/Initial Setup Tasks]]%0a---%0a> * [[PmWiki/Initial Setup Task]]%0a
+host:1618635498=::1
+author:1618635469=
+diff:1618635469:1618635443:=5c5%0a%3c * [[PmWiki/Initial Setup Task]]%0a---%0a> * [[PmWiki/Initial Setup Tasks]]%0a
+host:1618635469=::1
+author:1618635443=
+diff:1618635443:1618634616:=5d4%0a%3c * [[PmWiki/Initial Setup Tasks]]%0a
+host:1618635443=::1
+author:1618634616=
+diff:1618634616:1618634604:=4a5%0a> %0a
+host:1618634616=::1
+author:1618634604=
+diff:1618634604:1125550800:=5c5%0a%3c %0a---%0a> * [[PmWiki/Initial Setup Tasks]]  %0a
+host:1618634604=::1
